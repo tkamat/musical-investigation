@@ -1,0 +1,17 @@
+#+TITLE: Test Presentation
+#+AUTHOR: Tushaar Kamat
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+OPTIONS: reveal_slide_number:nil
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: night
+#+REVEAL_MARGIN: 0.1
+* holla
+** test test 
+#+ATTR_REVEAL: :frag (roll-in)
+   * Well the first days are the hardest days don't you worry anymore.
+   * Cause when life looks like easy street there is danger at your door.
+   * Think this through with me.
+   * Let me know your mind.
+* Test 2
+* Test 3
+* Holla Holla 
