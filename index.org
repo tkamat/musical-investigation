@@ -1,6 +1,6 @@
 #+TITLE: Musical Investigation 
 #+AUTHOR: Tushaar Kamat
-#+REVEAL_ROOT: 
+#+REVEAL_ROOT: .
 #+OPTIONS: reveal_slide_number:nil
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
