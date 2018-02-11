@@ -1,6 +1,6 @@
 #+TITLE: Test Presentation
 #+AUTHOR: Tushaar Kamat
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: 
 #+OPTIONS: reveal_slide_number:nil
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: night
