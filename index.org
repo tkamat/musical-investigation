@@ -1,16 +1,31 @@
 #+TITLE: Musical Investigation 
 #+AUTHOR: Tushaar Kamat
+#+DATE: A comparison between hindustani classical music and modal jazz
 #+REVEAL_ROOT: .
-#+OPTIONS: reveal_slide_number:nil
+#+OPTIONS: reveal_slide_number:nil reveal_center:nil toc:nil
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: moon
-* holla
-** test test 
-#+ATTR_REVEAL: :frag (roll-in)
-   * Well the first days are the hardest days don't you worry anymore.
-   * Cause when life looks like easy street there is danger at your door.
-   * Think this through with me.
-   * Let me know your mind.
-* Test 2
+#+REVEAL_EXTRA_CSS: ./css/modifications.css
+* Background
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Ravi Shankar was an extremely influential sitarist from Bengal, India. He
+    had a distinct playing style characterized by unconventional rhythmic cycles
+    and flowing, but disjunct, melodic lines. 
+    #+BEGIN_sitar
+    #+CAPTION: An indian sitar
+    [[./images/sitar.jpeg]]
+    #+END_sitar
+  - Miles Davis was a jazz trumpeter and musician that was well know for
+    developing the modal jazz and jazz fusion genres. His album /Kind of Blue/
+    is often considered the best jazz album of all time.
+* Musical Pieces
+  #+ATTR_REVEAL: :frag (roll-in)
+  - My first piece is Ravi Shankar's live performance of /Raag Khamaj/, which he
+    performed with his daughter.
+    https://www.youtube.com/watch?v=9xB_X9BOAOU
+  - My second piece is the Miles Davis quintet performance of /So What/, from
+    his album /Kind of Blue/. 
+    https://www.youtube.com/watch?v=ylXk1LBvIqU
+  - 
 * Test 3
-* Holla Holla 
+* Test 4

@@ -1,0 +1,17 @@
+.reveal .title {
+    font-size: 1.75em;
+}
+
+.reveal .author {
+    font-size: 1.5em;
+    padding-bottom: 50px;
+}
+
+.reveal .sitar {
+    float: right;
+}
+
+.figure-number {
+    display: none;
+}
+
