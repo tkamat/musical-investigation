@@ -4,28 +4,168 @@
 #+REVEAL_ROOT: .
 #+OPTIONS: reveal_slide_number:nil reveal_center:nil toc:nil
 #+REVEAL_TRANS: linear
-#+REVEAL_THEME: moon
+#+REVEAL_THEME: beige
 #+REVEAL_EXTRA_CSS: ./css/modifications.css
 * Background
   #+ATTR_REVEAL: :frag (roll-in)
   - Ravi Shankar was an extremely influential sitarist from Bengal, India. He
     had a distinct playing style characterized by unconventional rhythmic cycles
-    and flowing, but disjunct, melodic lines. 
+    and flowing, but disjunct, melodic lines.
     #+BEGIN_sitar
     #+CAPTION: An indian sitar
     [[./images/sitar.jpeg]]
     #+END_sitar
   - Miles Davis was a jazz trumpeter and musician that was well know for
     developing the modal jazz and jazz fusion genres. His album /Kind of Blue/
-    is often considered the best jazz album of all time.
+    is often considered the best jazz record of all time.
+  - While both of these musicians developed independently and focused on
+    completely different genres, their music actually shares many common links
+    and similarities.
 * Musical Pieces
   #+ATTR_REVEAL: :frag (roll-in)
   - My first piece is Ravi Shankar's live performance of /Raag Khamaj/, which he
     performed with his daughter.
     https://www.youtube.com/watch?v=9xB_X9BOAOU
-  - My second piece is the Miles Davis quintet performance of /So What/, from
+  - My second piece is the Miles Davis quintet performance of /All Blues/, from
     his album /Kind of Blue/. 
     https://www.youtube.com/watch?v=ylXk1LBvIqU
-  - 
-* Test 3
-* Test 4
+* Characteristics of Hindustani Music
+  :PROPERTIES:
+  :reveal_background: coral
+  :END:
+
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Hindustani music is built on the raga, which literally translates to
+    "color." Ragas are scales and melodies that form the basis for the
+    performance, and their purpose is to form the mood or emotional basis for
+    the music, rather than providing structure as scales do in western music.
+  - Hindustani music is generally monodic, and the melody is generally
+    accompanied by various instruments, such as the tabla, which is used to
+    create complex polyrhythms.
+  - The meter of Hindustani music varies greatly between compositions, with
+    meters ranging from simple duple or triple meters to 7 or 14 beat mixed
+    meters.
+* Traditional Hindustani Instruments
+  :PROPERTIES:
+  :reveal_background: coral
+  :END:
+
+  #+BEGIN_tanpura
+  #+CAPTION: The tanpura: supports the melody with a harmonic drone. 
+  [[./images/tanpura.jpg]]
+  #+END_tanpura
+
+  #+BEGIN_sitar2
+  #+CAPTION: The sitar: primary melodic instrument.
+  [[./images/sitar.jpeg]]
+  #+END_sitar2
+
+  #+BEGIN_tablas
+  #+CAPTION: The tablas: primary rhythmic instrument.
+  [[./images/tablas.jpeg]]
+  #+END_tablas
+  
+* Raag Khamaj 
+  :PROPERTIES:
+  :reveal_background: coral
+  :END:
+
+  #+ATTR_REVEAL: :frag (roll-in)
+  - The Khamaj is one of the ten Thaats (parent scales) of Hindustani classical
+    music. The improvisational scale for this raga is shown below:
+    #+ATTR_HTML: :width 50%
+    [[./images/khamaj_scale.png]]
+  - As seen above, the scale contains 9 notes, which means it does not conform
+    to western scales, which generally contain 8 notes. However, the scale is
+    quite close to the western Mixolydian mode, which matches Raga Khamaj exactly except
+    for an extra B natural in the raga.
+* Miles Davis, Modal Jazz, and /Kind of Blue/
+  :PROPERTIES:
+  :reveal_background: SteelBlue
+  :END:
+
+  #+ATTR_REVEAL: :frag (appear)
+  - Miles Davis was one of the pioneers of the modal jazz movement, and along
+    with his colleagues John Coltrane, Bill Evans, and Cannonball Adderley, he
+    redefined what jazz music sounded like.
+  - In /Kind of Blue/, Davis and his extremely talented band rejected
+    traditional chord progressions in favor of modal scales, and they put a
+    heavy emphasis on improvisation and spontaneity.
+  - Modal jazz, like most other forms of jazz, originated with the blues, and a
+    lot of traditional blues elements can be found in modal jazz, such as the
+    strophic "Head/Solo/Head" structure. In this structure, the music begins
+    with a "head" that serves as the main chorus, followed by a usually lengthy
+    improvisation section, and finally a return to the head.
+* /So What/
+  :PROPERTIES:
+  :reveal_background: SteelBlue
+  :END:
+
+  #+ATTR_REVEAL: :frag (roll-in)
+  - /So What/ is known for having the melody in the bass line, which was very
+    unusual then and still unusual today.
+  
+  #+ATTR_REVEAL: :frag roll-in
+  #+BEGIN_leftcol_40
+  #+CAPTION: /So What/ melody
+  [[./images/so_what_bass.png]]
+  #+END_leftcol_40
+  
+  #+ATTR_REVEAL: :frag roll-in
+  #+BEGIN_rightcol_60
+  - The head is followed by improvisation by each melodic instrument, including
+    the alto saxophone, tenor saxophone, trumpet, piano, and bass.
+  #+END_rightcol_60
+
+  #+ATTR_REVEAL: :frag (roll-in)
+  - The piece is quite simple harmonically, and the piece uses an AABA
+    structure. The only harmonic shift is the switch from the D dorian mode to
+    the E flat dorian mode in the B section.
+  - The simplicity of /So What/ and other modal jazz pieces was intentional, as Miles
+    Davis wanted to give musicians freedom to improvise without being
+    constrained by a strict chord progression.
+* Musical Links
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Despite the great difference in cultures and location between these two
+    musical styles, they share many similarities.
+    1. Both pieces diverge from traditional western chord progressions in the
+       harmonies and tonality, with /Raag Khamaj/ using the raga and /So What/
+       using modes.
+    2. Both pieces have a similar structure, with an opening melody followed by
+       improvisation.
+    3. Both pieces share similar melodic constructs, such as quickly ascending
+       or descending arpeggios and phrases, use of the chromatic scale, and
+       bent notes in phrases.
+  
+  #+ATTR_REVEAL: :frag roll-in
+  #+BEGIN_leftcol
+  [[./images/so_what.jpg]]
+  #+END_leftcol
+  
+  #+ATTR_REVEAL: :frag roll-in
+  #+BEGIN_rightcol
+  [[./images/ravi.jpg]]
+  #+END_rightcol
+* Harmony and Tonality
+  #+ATTR_REVEAL: :frag (roll-in)
+  - /So What/, as mentioned before, has a very uniform harmonic structure, and
+    the only modulation is the half-step movement from D dorian to E flat dorian
+    in the B section.
+    - The first solo by Davis (see below) centers around the D minor pentatonic.
+    - Davis leaves lots of open spaces in his solo, which are filled by open
+      voicings centering around 4th chords, played by the pianist Bill Evans.
+    - As the solo progresses, Davis transitions from the minor pentatonic to a
+      more linear style focusing on the dorian scale.
+    - In the his second transition to the B section, Davis enters early with a
+      high, extended, dissonant A flat. Overall however, Davis tends to stay in
+      the dorian mode or pentatonic scale, but he occasionaly breaks from the
+      scale, such as with the "blues note".
+
+  #+ATTR_REVEAL: :frag roll-in
+  #+ATTR_HTML: :id hello
+  [[./images/miles_solo.png]]
+* Harmony and Tonality (Continued) 
+  - Shankar's performance of /Raag Khamaj/ similarly revolves around a single
+    scale, which is in this case the /Khamaj/.
+    - Shankar's solo 
+    - 

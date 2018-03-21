@@ -1,3 +1,4 @@
+
 .reveal .title {
     font-size: 1.75em;
 }
@@ -13,5 +14,55 @@
 
 .figure-number {
     display: none;
+}
+
+.reveal li {
+    font-size: .75em;
+}
+
+.reveal .figure {
+    font-size: .75em;
+}
+
+.reveal .tanpura {
+    float: left;
+    width: 33%;
+}
+
+.reveal .tablas {
+    display: inline-block;
+    width: 33%;
+}
+
+.reveal .sitar2 {
+    float: right;
+    width: 33%;
+}
+
+.reveal .leftcol {
+    float: left;
+    width: 50%;
+}
+
+.reveal .rightcol {
+    float: right;
+    width: 50%;
+}
+
+.reveal .leftcol_40 {
+    float: left;
+    width: 40%;
+}
+
+.reveal .rightcol_60 {
+    float: right;
+    width: 60%;
+}
+
+.reveal #hello {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
 }
 
