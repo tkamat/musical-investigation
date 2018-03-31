@@ -1,8 +1,8 @@
-#+TITLE: Musical Investigation 
+#+TITLE: Musical Investigation
 #+AUTHOR: Tushaar Kamat
 #+DATE: A comparison between hindustani classical music and modal jazz
 #+REVEAL_ROOT: .
-#+OPTIONS: reveal_slide_number:nil reveal_center:nil toc:nil
+#+OPTIONS: reveal_slide_number:nil reveal_center:nil toc:nil ^:nil
 #+REVEAL_TRANS: linear
 #+REVEAL_THEME: beige
 #+REVEAL_EXTRA_CSS: ./css/modifications.css
@@ -31,14 +31,15 @@
     https://www.youtube.com/watch?v=ylXk1LBvIqU
 * Characteristics of Hindustani Music
   :PROPERTIES:
-  :reveal_background: coral
+  :reveal_background: Coral
   :END:
 
   #+ATTR_REVEAL: :frag (roll-in)
   - Hindustani music is built on the raga, which literally translates to
     "color." Ragas are scales and melodies that form the basis for the
     performance, and their purpose is to form the mood or emotional basis for
-    the music, rather than providing structure as scales do in western music.
+    the music, rather than just providing structure as scales do in western
+    music.
   - Hindustani music is generally monodic, and the melody is generally
     accompanied by various instruments, such as the tabla, which is used to
     create complex polyrhythms.
@@ -47,7 +48,7 @@
     meters.
 * Traditional Hindustani Instruments
   :PROPERTIES:
-  :reveal_background: coral
+  :reveal_background: Coral
   :END:
 
   #+BEGIN_tanpura
@@ -67,18 +68,29 @@
   
 * Raag Khamaj 
   :PROPERTIES:
-  :reveal_background: coral
+  :reveal_background: Coral
   :END:
 
   #+ATTR_REVEAL: :frag (roll-in)
   - The Khamaj is one of the ten Thaats (parent scales) of Hindustani classical
     music. The improvisational scale for this raga is shown below:
-    #+ATTR_HTML: :width 50%
-    [[./images/khamaj_scale.png]]
-  - As seen above, the scale contains 9 notes, which means it does not conform
-    to western scales, which generally contain 8 notes. However, the scale is
-    quite close to the western Mixolydian mode, which matches Raga Khamaj exactly except
-    for an extra B natural in the raga.
+    #+BEGIN_leftcol
+    #+ATTR_HTML: :width 75%
+    #+CAPTION: Ascending scale
+    [[./images/khamaj_scale_up.png]]
+    #+END_leftcol
+    #+BEGIN_rightcol
+    #+ATTR_HTML: :width 75%
+    #+CAPTION: Descending scale
+    [[./images/khamaj_scale_down.png]]
+    #+END_rightcol
+ 
+  #+ATTR_REVEAL: :frag (roll-in)
+  - The scales are different when ascending and descending, and they have a
+    different number of notes, with the ascending scale having 6 notes (called
+    shadav) and the descending scale having 7 notes (called sampoorna).
+  - Raag Khamaj uses Teentaal, which is a fast 16 beat rhythm.
+
 * Miles Davis, Modal Jazz, and /Kind of Blue/
   :PROPERTIES:
   :reveal_background: SteelBlue
@@ -133,9 +145,9 @@
        using modes.
     2. Both pieces have a similar structure, with an opening melody followed by
        improvisation.
-    3. Both pieces share similar melodic constructs, such as quickly ascending
-       or descending arpeggios and phrases, use of the chromatic scale, and
-       bent notes in phrases.
+    3. Both pieces share similar tonal and melodic constructs, such as quickly
+       ascending or descending arpeggios and phrases, use of the chromatic
+       scale, and bent notes.
   
   #+ATTR_REVEAL: :frag roll-in
   #+BEGIN_leftcol
@@ -146,26 +158,170 @@
   #+BEGIN_rightcol
   [[./images/ravi.jpg]]
   #+END_rightcol
-* Harmony and Tonality
+* Harmony and Tonality in /So What/
+  :PROPERTIES:
+  :reveal_background: SteelBlue 
+  :END:
+
   #+ATTR_REVEAL: :frag (roll-in)
   - /So What/, as mentioned before, has a very uniform harmonic structure, and
     the only modulation is the half-step movement from D dorian to E flat dorian
     in the B section.
+    #+ATTR_REVEAL: :frag (roll-in)
     - The first solo by Davis (see below) centers around the D minor pentatonic.
     - Davis leaves lots of open spaces in his solo, which are filled by open
-      voicings centering around 4th chords, played by the pianist Bill Evans.
+      voicings centering around diatonic 4th chords, played by the pianist Bill
+      Evans.
     - As the solo progresses, Davis transitions from the minor pentatonic to a
-      more linear style focusing on the dorian scale.
+      more linear style focusing on the dorian scale. He often returns back to
+      the base note D.
     - In the his second transition to the B section, Davis enters early with a
       high, extended, dissonant A flat. Overall however, Davis tends to stay in
-      the dorian mode or pentatonic scale, but he occasionaly breaks from the
+      the dorian mode or pentatonic scale, but he occasionally breaks from the
       scale, such as with the "blues note".
 
   #+ATTR_REVEAL: :frag roll-in
-  #+ATTR_HTML: :id hello
+  #+ATTR_HTML: :id so_what_solo
   [[./images/miles_solo.png]]
-* Harmony and Tonality (Continued) 
+* Harmony and Tonality in /Raag Khamaj/ 
+  :PROPERTIES:
+  :reveal_background: Coral
+  :END:
+  #+ATTR_REVEAL: :frag (roll-in)
   - Shankar's performance of /Raag Khamaj/ similarly revolves around a single
-    scale, which is in this case the /Khamaj/.
-    - Shankar's solo 
-    - 
+    scale, which is in this case the /Khamaj/ raga.
+    #+ATTR_REVEAL: :frag (roll-in)
+    - Just like Davis, many of Ravi Shankar's riffs travel up and down the raga,
+      but repeatedly end on the same note, which is in this case F natural (the
+      second note in the ascending scale).
+    - This repeated note is known as the vadi in Hindustani music, and it
+      serves as the dominant note of the piece.
+    - Also similar to /So What/, /Raag Khamaj/ has a flat note in the descending
+      scale known as the komal, which serves the same function as the blues note
+      in /So What/. This note is used to add color and mood to the music, and it
+      is often played repeatedly to add tension.
+    - Similar to how /So What/ only uses 2 chords to encourage more free-form
+      improvisation, this composition maintains the same raga throughout. While
+      Shankar does switch between the ascending and descending scales, the base
+      raga itself never changes.
+    - The static nature of the tonality forces the improviser to use the scale
+      itself to create music and melody, rather than just following the chord
+      changes.
+* Structure in /Raag Khamaj/
+  :PROPERTIES:
+  :reveal_background: Coral
+  :END:
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Raag Khamaj consists of a short, repeated melody of only 5 pitches that is
+    returned to throughout the piece. This is known as the bandish.
+  #+ATTR_REVEAL: :frag roll-in
+  #+ATTR_HTML: :width 50%
+  [[./images/bandish.png]]
+  #+ATTR_REVEAL: :frag (roll-in)
+  - The bandish is followed by improvisation by Ravi Shankar and Anoushka
+    Shankar, who generally play seperatly but occasionally play
+    together in polyphony or exchange lines in call and response.
+  - The improvisers generally return to the bandish after their improvisation,
+    usually following a crescendo.
+  - There is an accelerando at the end of the piece, which is followed by a
+    cathartic conclusion consisting of repeating sequences of ascending notes and
+    ending on tonic (C sharp).
+* Structure in /So What/
+  :PROPERTIES:
+  :reveal_background: SteelBlue
+  :END:
+  #+ATTR_REVEAL: :frag (roll-in) 
+  - /So What/'s structure is very similar to /Raag Khamaj/, as it consists of a
+    simple melody called the "head," followed by extended improvisation. The
+    chord structure is AABA.
+  - Also similiar to /Raag Khamaj/, multiple improvisers take turns soloing.
+  - While the main instruments never play together, some polyphony is achieved
+    through the interaction between the improviser, piano, and dynamic bass
+    line.
+  - /So What/ also features a return to the head after the improvisation
+    section, which ends in a decrescendo with all of the instruments eventually
+    dropping out.
+  - Another similarity with Hindustani music is the call and response structure
+    used in the head, with the piano and the horns "answering" the melody played
+    by the bass. This format was originally influenced by traditional African
+    American slave music, and remarkably, it is also similiar to the call and
+    response exchange between the 2 sitar players in /Raag Khamaj/.
+* Melody and Tone in /So What/
+  :PROPERTIES:
+  :reveal_background: SteelBlue
+  :END:
+  #+ATTR_REVEAL: :frag (roll-in)
+  - The improvisers in /So What/, especially Davis and Coltrane, have very
+    similiar styles to Hindustani music.
+    #+ATTR_REVEAL: :frag (roll-in)
+    - Coltrane especially uses many of the same techniques, such as using
+      rhythmic sequences in his licks, beginning with slower phrases, then
+      transitioning to very quick phrases ascending and descending the chromatic
+      scale, as seen below.
+    #+ATTR_REVEAL: :frag roll-in
+    #+ATTR_HTML: :width 75%
+     [[./images/chromatic.png]]
+    #+ATTR_REVEAL: :frag (roll-in)
+    - Additionally, both Davis and Coltrane have very high ranges, with Davis
+      traversing it using piercing, disjunct notes, and Coltrane using flowing
+      runs.
+    - All of the improvisers also hit many melodic peaks throughout their solos,
+      especially "Cannonball" Adderley, who often ends his sequences with two or three
+      eighth notes of the same pitch played in swing.
+    - Coltrane and Adderley frequently use rapid trills and other
+      fast and technical ornamentation in their melodies.
+    - Finally, both saxophonists also make use of techniques such as vibrato,
+      "growling," and bending notes, which is meant to emulate the human voice
+      in traditional African American singing.
+* Melody and Tone in /Raag Khamaj/
+  :PROPERTIES:
+  :reveal_background: Coral
+  :END:
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Surprisingly, /Raag Khamaj/ and Hindustani music in general shares many of
+    the same melodic constructs as Jazz.
+    #+ATTR_REVEAL: :frag (roll-in)
+    - Just like Coltrane in /So What/, Ravi Shankar frequently ascends up and
+      then down the chromatic scale. However, his playing also shares
+      similarities to Davis, in that he sometimes moves up or down the raga
+      disjunctly using arpeggios, seen below.
+    #+ATTR_REVEAL: :frag roll-in
+    #+ATTR_HTML: :width 50%
+    [[./images/arpeg.png]]
+    #+ATTR_REVEAL: :frag (roll-in)
+    - Many of the melodic peaks in /Raag Khamaj/ are formed by repeating a
+      single note over and over again in a crescendo, which usually ends with a
+      transition back to the bandish.
+    - Ravi Shankar also frequently uses bent notes in his music, which is known
+      as meend. This technique also originated from vocal singing, and it is
+      very similiar to how Coltrane and Adderley bend their notes.
+    - Finally, just like in Jazz music, Ravi Shankar frequently uses syncopation in
+      his melodies, which is again demonstrated above.
+* Conclusion
+  #+ATTR_REVEAL: :frag (roll-in)
+  - In conclusion, Hindustani Classical Music and Modal Jazz share many
+    similarities that are quite surprising considering that the two cultures are
+    completely separate geographically.
+  - This investigation helped me connect the music of my Indian heritage to the
+    jazz music that I love to listen to and play on the saxophone and piano.
+
+  #+ATTR_REVEAL: :frag roll-in
+  #+BEGIN_sources
+  Sources and Discography: 
+  
+  "Raag Khamaj." Raag Khamaj - Indian Classical Music, /Tanarang.com/,
+  2015, www.tanarang.com/english/khamaj_eng.htm.
+
+  Ruston, P. “'So What' Analysis.” Architectures of Music, /WordPress/, 7 Mar. 2016,
+  architecturesofmusic.wordpress.com/2016/03/07/so-what-analysis/.
+  
+  MilesDavisVEVO. “Miles Davis - So What (Audio).” /YouTube/, 14 May 2013,
+  www.youtube.com/watch?v=ylXk1LBvIqU.
+  
+  TangibleEmotions. “Ravi Shankar & Anoushka Shankar Live: Raag Khamaj (1997).”
+  /YouTube/, 21 Sept. 2011, www.youtube.com/watch?v=9xB_X9BOAOU.
+
+
+#+END_sources
+
+
