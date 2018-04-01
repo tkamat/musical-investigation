@@ -15,7 +15,7 @@
     #+CAPTION: An indian sitar
     [[./images/sitar.jpeg]]
     #+END_sitar
-  - Miles Davis was a jazz trumpeter and musician that was well know for
+  - Miles Davis was a jazz trumpeter and musician that was well known for
     developing the modal jazz and jazz fusion genres. His album /Kind of Blue/
     is often considered the best jazz record of all time.
   - While both of these musicians developed independently and focused on
