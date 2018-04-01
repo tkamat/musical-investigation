@@ -24,16 +24,15 @@
 * Musical Pieces
   #+ATTR_REVEAL: :frag (roll-in)
   - My first piece is Ravi Shankar's live performance of /Raag Khamaj/, which he
-    performed with his daughter.
+    performed with his daughter Anoushka.
     https://www.youtube.com/watch?v=9xB_X9BOAOU
-  - My second piece is the Miles Davis quintet performance of /All Blues/, from
+  - My second piece is the Miles Davis quintet performance of /So What/, from
     his album /Kind of Blue/. 
     https://www.youtube.com/watch?v=ylXk1LBvIqU
 * Characteristics of Hindustani Music
   :PROPERTIES:
   :reveal_background: Coral
   :END:
-
   #+ATTR_REVEAL: :frag (roll-in)
   - Hindustani music is built on the raga, which literally translates to
     "color." Ragas are scales and melodies that form the basis for the
@@ -89,8 +88,9 @@
   - The scales are different when ascending and descending, and they have a
     different number of notes, with the ascending scale having 6 notes (called
     shadav) and the descending scale having 7 notes (called sampoorna).
-  - Raag Khamaj uses Teentaal, which is a fast 16 beat rhythm.
-
+  - Shankar's Raag Khamaj uses a 16 beat rhythm called Teentaal, which is in
+    this case performed at a fast tempo.
+    
 * Miles Davis, Modal Jazz, and /Kind of Blue/
   :PROPERTIES:
   :reveal_background: SteelBlue
@@ -212,14 +212,14 @@
   :reveal_background: Coral
   :END:
   #+ATTR_REVEAL: :frag (roll-in)
-  - Raag Khamaj consists of a short, repeated melody of only 5 pitches that is
-    returned to throughout the piece. This is known as the bandish.
+  - Shankar's Raag Khamaj consists of a short, repeated melody of only 5 pitches
+    that is returned to throughout the piece. This is known as the bandish.
   #+ATTR_REVEAL: :frag roll-in
   #+ATTR_HTML: :width 50%
   [[./images/bandish.png]]
   #+ATTR_REVEAL: :frag (roll-in)
   - The bandish is followed by improvisation by Ravi Shankar and Anoushka
-    Shankar, who generally play seperatly but occasionally play
+    Shankar, who generally play separately but occasionally play
     together in polyphony or exchange lines in call and response.
   - The improvisers generally return to the bandish after their improvisation,
     usually following a crescendo.
@@ -324,4 +324,4 @@
 
 #+END_sources
 
-
+  
